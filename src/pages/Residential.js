@@ -1,10 +1,8 @@
-import React from "react";
+import React from 'react';
 
-const Residential = () => {
-  return (
-    <>
-    </>
-  )
-}
+const Residential = () => (
+  <>
+  </>
+);
 
-export default Residential
+export default Residential;

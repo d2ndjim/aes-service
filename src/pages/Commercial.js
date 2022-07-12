@@ -1,10 +1,8 @@
-import React from "react";
+import React from 'react';
 
-const Commercial = () => {
-  return (
-    <>
-    </>
-  )
-}
+const Commercial = () => (
+  <>
+  </>
+);
 
-export default Commercial
+export default Commercial;
