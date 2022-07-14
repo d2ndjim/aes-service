@@ -25,10 +25,12 @@ const Header = () => (
       </nav>
     </div>
     <div className="flex items-center gap-7 mr-6">
-      <a id="phone" href="tel:09098760067">
+      <a id="phone" href="tel:09098760067" className="text-[#F7B736] text-2xl">
         <FiPhoneCall />
       </a>
-      <a href="tel:09098760067" className="font-bold">09098760067</a>
+      <a href="tel:09098760067" className="font-bold">
+        09098760067
+      </a>
     </div>
   </div>
 );

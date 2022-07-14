@@ -2,11 +2,6 @@
   font-family: 'Roboto Mono', monospace;
 }
 
-#phone {
-  color: #F7B736;
-  font-size: 30px;
-}
-
 .nav-links {
   font-weight: bold;
 }
@@ -18,3 +13,6 @@
 .active {
   color: #F7B736;
 }
+
+
+
