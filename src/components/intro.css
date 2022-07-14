@@ -1,5 +1,5 @@
 .content {
-  height: 100vh;
+  height: 80vh;
   width: 100%;
   background-image: url(../assets/images/homeImage.jpg);
   background-size: cover;
@@ -26,4 +26,16 @@
   }60% {
     background-image: url(../assets/images/homeImage5.jpg);
   }
+}
+
+.text {
+  color: white;
+  font-size: 3rem;
+  font-weight: bolder;
+  /* margin: auto; */
+  height: 80vh;
+  padding: 8rem;
+  width: 50%;
+  background-color: rgba(0, 0, 0, .6);
+  /* opacity: 0.2; */
 }

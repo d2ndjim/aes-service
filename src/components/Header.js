@@ -4,7 +4,7 @@ import { FiPhoneCall } from 'react-icons/fi';
 import Logo from '../assets/images/logo.png';
 
 const Header = () => (
-  <div className="flex justify-between items-center">
+  <div className="hidden md:flex justify-between items-center">
     <div className="flex items-center">
       <div>
         <img src={Logo} alt={Logo} />
