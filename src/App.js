@@ -6,6 +6,7 @@ import Residential from './pages/Residential';
 import Commercial from './pages/Commercial';
 import Contact from './pages/Contact';
 import Header from './components/Header';
+import About from './pages/About';
 import './App.css';
 import 'aos/dist/aos.css';
 
@@ -22,6 +23,7 @@ function App() {
         <Route path="/residential" element={<Residential />} />
         <Route path="/commercial" element={<Commercial />} />
         <Route path="/contact" element={<Contact />} />
+        <Route path="/about" element={<About />} />
       </Routes>
     </div>
   );

@@ -1,5 +1,5 @@
 .content {
-  height: 80vh;
+  height: 40vh;
   width: 100%;
   background-image: url(../assets/images/homeImage.jpg);
   background-size: cover;
@@ -30,12 +30,50 @@
 
 .text {
   color: white;
-  font-size: 3rem;
-  font-weight: bolder;
-  /* margin: auto; */
-  height: 80vh;
-  padding: 8rem;
-  width: 50%;
+  font-size: 20px;
+  padding-top: 40px;
+  padding-left: 20px;
+  font-weight: bold;
   background-color: rgba(0, 0, 0, .6);
-  /* opacity: 0.2; */
+  width: 50%;
+  height: 40vh;
+}
+
+.para {
+  display: none;
+}
+
+.s-link {
+  margin-left: 40px;
+}
+
+@media only screen and (max-width: 767px) {
+  input, select {
+    width: 91%;
+  }
+  .c-btn {
+    width: 70%;
+    margin: auto;
+    /* padding: 7px; */
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .text {
+      color: white;
+      font-size: 2.5rem;
+      font-weight: 900;
+      height: 80vh;
+      padding: 8rem;
+      width: 50%;
+      background-color: rgba(0, 0, 0, .6);
+    }
+
+  .content {
+    height: 80vh;
+  }
+
+  .para {
+    display: block;
+  }
 }

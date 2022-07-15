@@ -4,7 +4,7 @@ import { FiPhoneCall } from 'react-icons/fi';
 import Logo from '../assets/images/logo.png';
 
 const Header = () => (
-  <div className="hidden md:flex justify-between items-center">
+  <div className="header hidden md:flex justify-between items-center">
     <div className="flex items-center">
       <div>
         <img src={Logo} alt={Logo} />
@@ -19,16 +19,16 @@ const Header = () => (
         <NavLink to="/commercial" className="nav-links">
           COMMERCIAL
         </NavLink>
-        <NavLink to="/Contact" className="nav-links">
+        <NavLink to="/contact" className="nav-links">
           CONTACT
         </NavLink>
       </nav>
     </div>
     <div className="flex items-center gap-7 mr-6">
       <a id="phone" href="tel:09098760067" className="text-[#F7B736] text-2xl">
-        <FiPhoneCall />
+        <FiPhoneCall className="hover:text-black" />
       </a>
-      <a href="tel:09098760067" className="font-bold">
+      <a href="tel:09098760067" className="font-bold hover:text-[#F7B736]">
         09098760067
       </a>
     </div>
