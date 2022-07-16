@@ -26,7 +26,7 @@ const Intro = () => (
     </div>
     <div className="flex flex-col md:grid grid-cols-2 mb-4">
       <div className="w-full py-16 md:py-30 bg-[#F6F6F6]">
-        <h3 className="px-10 text-2xl italic mb-10">
+        <h3 className="px-10 text-2xl text-[#25262E] italic mb-10">
           &quot;We provide Electrical Installations, Upgrades, and
           Maintenance.&quot;
         </h3>
