@@ -7,6 +7,7 @@ import Commercial from './pages/Commercial';
 import Contact from './pages/Contact';
 import Header from './components/Header';
 import About from './pages/About';
+import MobileNav from './components/mobilenav/mobileNav';
 import './App.css';
 import 'aos/dist/aos.css';
 
@@ -18,6 +19,7 @@ function App() {
   return (
     <div className="App">
       <Header />
+      <MobileNav />
       <Routes>
         <Route path="/" index element={<Home />} />
         <Route path="/residential" element={<Residential />} />
