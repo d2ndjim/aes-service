@@ -1,5 +1,6 @@
 .App {
   font-family: 'Inter', sans-serif;
+  color: #25262E;
 }
 
 .nav-links {
@@ -85,9 +86,10 @@
   font-size: 1.7rem;
 }
 
-/* .img {
-  filter: brightness(50%)
-} */
+.service-img {
+  width: 300px;
+  height: 300px;
+}
 
 @media only screen and (max-width: 767px) {
   .ben {
