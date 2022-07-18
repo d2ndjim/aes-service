@@ -3,6 +3,7 @@ import React from 'react';
 const HomeContact = () => (
   <>
     <form
+      id="schedule"
       action=""
       method=""
       className="mb-8 flex flex-col md:grid md:grid-cols-2 gap-3 md:gap-2"
