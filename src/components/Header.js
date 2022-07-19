@@ -1,5 +1,6 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
+import { Link } from 'react-scroll';
 import { FiPhoneCall } from 'react-icons/fi';
 import Logo from '../assets/images/logo.png';
 
@@ -13,12 +14,12 @@ const Header = () => (
         <NavLink to="/" className="nav-links">
           HOME
         </NavLink>
-        <NavLink to="/residential" className="nav-links .active">
+        <Link to="resident" smooth className="nav-links .active cursor-pointer">
           RESIDENTIAL
-        </NavLink>
-        <NavLink to="/commercial" className="nav-links">
+        </Link>
+        <Link to="resident" smooth className="nav-links cursor-pointer">
           COMMERCIAL
-        </NavLink>
+        </Link>
         <NavLink to="/contact" className="nav-links">
           CONTACT
         </NavLink>

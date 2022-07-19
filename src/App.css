@@ -81,6 +81,12 @@
   position: relative;
 }
 
+.vertical-footer {
+  border-left: 2px solid #F7B736;
+  height: 30px;
+  position: relative;
+}
+
 .font-extrabold {
   /* font-weight: 900; */
   font-size: 1.7rem;

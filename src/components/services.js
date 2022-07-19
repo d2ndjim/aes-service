@@ -22,7 +22,7 @@ const Services = () => {
           needs as quickly as we can.
         </p>
       </div>
-      <div className="mt-10">
+      <div id="resident" className="mt-10">
         <div className="flex flex-col gap-2 md:flex-row md:gap-0 justify-center items-center mb-8">
           <button
             type="button"
@@ -201,7 +201,7 @@ const Services = () => {
           </div>
         )}
       </div>
-      <div className="mt-10 md:hidden">
+      <div className="commercial mt-10 md:hidden">
         <div className="flex flex-col gap-2 md:flex-row md:gap-0 justify-center items-center mb-8">
           <button
             type="button"

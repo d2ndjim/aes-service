@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { NavLink } from 'react-router-dom';
+import { Link } from 'react-scroll';
 import { GiHamburgerMenu } from 'react-icons/gi';
 import { CgClose } from 'react-icons/cg';
 import Logo from '../../assets/images/logo.png';
@@ -38,20 +39,22 @@ const MobileNav = () => {
               >
                 HOME
               </NavLink>
-              <NavLink
-                to="/residential"
+              <Link
+                to="resident"
+                smooth
                 className="nav-links .active text-white"
                 onClick={() => setIsOpen(false)}
               >
                 RESIDENTIAL
-              </NavLink>
-              <NavLink
-                to="/commercial"
+              </Link>
+              <Link
+                to="commercial"
+                smooth
                 className="nav-links text-white"
                 onClick={() => setIsOpen(false)}
               >
                 COMMERCIAL
-              </NavLink>
+              </Link>
               <NavLink
                 to="/contact"
                 className="nav-links text-white"
