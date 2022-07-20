@@ -97,6 +97,15 @@
   height: 300px;
 }
 
+.contact-top {
+  height: 60vh;
+  width: 100%;
+  background-image: url(./assets/images/homeImage2.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
 @media only screen and (max-width: 767px) {
   .ben {
     font-size: 12px;
@@ -104,6 +113,10 @@
 
   .wiring, .solar, .industrial {
     height: 62vh;
+  }
+
+  .contact-top {
+    height: 40vh;
   }
 }
 
