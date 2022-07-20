@@ -5,7 +5,7 @@ import Socials from '../components/socials';
 const Contact = () => (
   <>
     <div className="contact-top flex items-center justify-center mb-20">
-      <h1 className="text-white font-extrabold text-4xl md:text-5xl">
+      <h1 className="text-white font-extrabold text-4xl">
         Contact Us
       </h1>
     </div>

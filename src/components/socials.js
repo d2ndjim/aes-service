@@ -14,7 +14,7 @@ const Socials = () => (
     </a>
     <a
       className="pr-5"
-      href="https://www.linkedin.com/in/lekanj/"
+      href="https://www.linkedin.com/in/aes-engr-559050245"
       target="_blank"
       rel="noopener noreferrer"
       aria-label="My Linkedin profile"
@@ -22,7 +22,7 @@ const Socials = () => (
       <FiLinkedin className="text-[#757477] text-lg hover:scale-[1.5] hover:transition-transform hover:ease-in-out hover:duration-[300ms]" />
     </a>
     <a
-      href="https://twitter.com/d2ndjim_"
+      href="https://twitter.com/aes_engr"
       target="_blank"
       rel="noopener noreferrer"
       aria-label="My Twitter profile"
