@@ -1,6 +1,6 @@
 .App {
   font-family: 'Inter', sans-serif;
-  color: #25262E;
+  color: #25262e;
 }
 
 .nav-links {
@@ -8,18 +8,18 @@
 }
 
 .nav-links:hover {
-  color: #F7B736;
+  color: #f7b736;
 }
 
 .active {
-  color: #F7B736;
+  color: #f7b736;
 }
 
 .mob-div {
   position: fixed;
   width: 100%;
   height: 100vh;
-  background-color: #25262E;
+  background-color: #25262e;
   top: 0;
   left: 0;
   z-index: 2;
@@ -45,6 +45,7 @@
   background-position: center;
   background-repeat: no-repeat;
 }
+
 .solar {
   width: 100%;
   height: 100vh;
@@ -64,25 +65,25 @@
 }
 
 .vertical {
-  border-left: 4px solid #F7B736;
+  border-left: 4px solid #f7b736;
   height: 39px;
   position: relative;
 }
 
 .vertical-2 {
-  border-left: 4px solid #F7B736;
+  border-left: 4px solid #f7b736;
   height: 39px;
   position: relative;
 }
 
 .vertical-3 {
-  border-left: 4px solid #F7B736;
+  border-left: 4px solid #f7b736;
   height: 39px;
   position: relative;
 }
 
 .vertical-footer {
-  border-left: 2px solid #F7B736;
+  border-left: 2px solid #f7b736;
   height: 30px;
   position: relative;
 }
@@ -111,7 +112,9 @@
     font-size: 12px;
   }
 
-  .wiring, .solar, .industrial {
+  .wiring,
+  .solar,
+  .industrial {
     height: 62vh;
   }
 
@@ -119,5 +122,3 @@
     height: 40vh;
   }
 }
-
-

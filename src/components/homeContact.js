@@ -70,8 +70,8 @@ const HomeContact = () => {
       </form>
       <div>
         {result && (
-          <h2 className="text-xl text-white p-4">
-            Your request has been received. We&apos;ll Get back to you within 24
+          <h2 className="text-base md:text-xl text-white p-4">
+            Your request has been received. We&apos;ll get back to you within 24
             hours.
           </h2>
         )}
