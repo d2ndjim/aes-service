@@ -5,9 +5,7 @@ import Socials from '../components/socials';
 const Contact = () => (
   <>
     <div className="contact-top flex items-center justify-center mb-20">
-      <h1 className="text-white font-extrabold text-4xl">
-        Contact Us
-      </h1>
+      <h1 className="text-3xl md:text-5xl text-white font-bold">Contact Us</h1>
     </div>
     <div className="flex flex-col gap-4 items-center justify-center mb-20">
       <div className="flex flex-col justify-center items-center">
@@ -62,7 +60,7 @@ const Contact = () => (
         <div className="flex gap-2 items-center">
           <div className="vertical-footer" />
           <p className="text-xs text-[#757477]">
-            aesengr.com
+            requestaquote@aengrs.com
             <br />
             09098760067
           </p>

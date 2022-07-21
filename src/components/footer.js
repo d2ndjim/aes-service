@@ -37,7 +37,7 @@ const Footer = () => (
         <div className="flex gap-2 items-center">
           <div className="vertical-footer" />
           <p className="text-xs text-[#757477]">
-            aesengr.com
+            requestaquote@aengrs.com
             <br />
             09098760067
           </p>

@@ -1,7 +1,7 @@
 import React from 'react';
 import { BsLightningCharge, BsTrophy } from 'react-icons/bs';
 import { TbHourglassLow, TbLicense } from 'react-icons/tb';
-import { GrUserExpert } from 'react-icons/gr';
+import { ImUserCheck } from 'react-icons/im';
 import { IoIosTimer } from 'react-icons/io';
 
 const Benefits = () => (
@@ -27,7 +27,7 @@ const Benefits = () => (
           <p className="ben text-[#25262E]">Licensed Electricians</p>
         </div>
         <div className="flex flex-col gap-4 items-center justify-center border-solid border-2 border-[#E5E5E5] p-8 hover:border-[#F7B736]">
-          <GrUserExpert className="text-[#F7B736] text-4xl md:text-3xl" />
+          <ImUserCheck className="text-[#F7B736] text-4xl md:text-3xl" />
           <p className="ben text-[#25262E] text-center">
             Experienced and Accesible
           </p>
