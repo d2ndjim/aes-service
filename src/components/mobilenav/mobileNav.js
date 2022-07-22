@@ -9,7 +9,7 @@ const MobileNav = () => {
   const [isOpen, setIsOpen] = useState(false);
   return (
     <div className="md:hidden">
-      <div className="flex justify-between border-b mb-2">
+      <div className="flex justify-between mb-2">
         <div>
           <img src={Logo} alt={Logo} />
         </div>
