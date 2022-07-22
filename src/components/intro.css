@@ -1,7 +1,7 @@
 .content {
   height: 40vh;
   width: 100%;
-  background-image: url(../assets/images/homeImage.jpg);
+  background-image: url('../assets/images/homeImage.jpg');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -17,19 +17,19 @@
 
 @keyframes animate {
   0% {
-    background-image: url(../assets/images/homeImage2.jpg);
+    background-image: url('../assets/images/homeImage2.jpg');
   }
 
   20% {
-    background-image: url(../assets/images/homeImage3.jpg);
+    background-image: url('../assets/images/homeImage3.jpg');
   }
 
   40% {
-    background-image: url(../assets/images/homeImage4.jpg);
+    background-image: url('../assets/images/homeImage4.jpg');
   }
 
   60% {
-    background-image: url(../assets/images/homeImage5.jpg);
+    background-image: url('../assets/images/homeImage5.jpg');
   }
 }
 
