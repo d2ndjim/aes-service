@@ -40,7 +40,7 @@
 .wiring {
   width: 100%;
   height: 100vh;
-  background: linear-gradient(109.6deg, rgba(0, 0, 0, 0.3) 3.2%, rgb(63, 61, 61) 99.9%), url('./assets/images/wiring.jpg');
+  background: linear-gradient(109.6deg, rgba(0, 0, 0, 0.3) 3.2%, rgb(63, 61, 61) 99.9%), url('https://user-images.githubusercontent.com/73438276/180468641-59ed4925-5ec8-4542-88a6-04c7fb79aee6.jpg');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -49,7 +49,7 @@
 .solar {
   width: 100%;
   height: 100vh;
-  background: linear-gradient(109.6deg, rgba(0, 0, 0, 0.3) 3.2%, rgb(63, 61, 61) 99.9%), url('./assets/images/solar.jpg');
+  background: linear-gradient(109.6deg, rgba(0, 0, 0, 0.3) 3.2%, rgb(63, 61, 61) 99.9%), url('https://user-images.githubusercontent.com/73438276/180468668-18602871-9c2f-49dc-8e92-16bf09deb4a4.jpg');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -58,7 +58,7 @@
 .industrial {
   width: 100%;
   height: 100vh;
-  background: linear-gradient(109.6deg, rgba(0, 0, 0, 0.3) 3.2%, rgb(63, 61, 61) 99.9%), url('./assets/images/industrial.jpg');
+  background: linear-gradient(109.6deg, rgba(0, 0, 0, 0.3) 3.2%, rgb(63, 61, 61) 99.9%), url('https://user-images.githubusercontent.com/73438276/180468662-65f36c3c-584f-4999-97e7-683c2ad388cb.jpg');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -101,7 +101,7 @@
 .contact-top {
   height: 60vh;
   width: 100%;
-  background-image: url('./assets/images/homeImage2.jpg');
+  background-image: url('https://user-images.githubusercontent.com/73438276/180467440-d1cf058a-87d1-4a8e-8cf8-4c4de8be53d8.jpg');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
