@@ -125,10 +125,7 @@ const Services = () => {
             <img src={ResImage} alt={ResImage} className="service-img pt-6" />
           </div>
         ) : (
-          <div
-            className="hidden md:flex flex-col px-10 md:flex-row items-center justify-center md:gap-10 md:px-20"
-            // data-aos="fade-down"
-          >
+          <div className="hidden md:flex flex-col px-10 md:flex-row items-center justify-center md:gap-10 md:px-20">
             <div className="flex flex-col gap-8 md:grid md:grid-cols-2 md:gap-10">
               <div className="text-xs">
                 <div className="flex">
@@ -304,74 +301,65 @@ const Services = () => {
             <img src={ResImage} alt={ResImage} className="service-img pt-6" />
           </div>
         ) : (
-          <div
-            className="flex flex-col px-10 md:flex-row items-center justify-center md:gap-10 md:px-20"
-            // data-aos="fade-down"
-          >
+          <div className="flex flex-col px-10 md:flex-row items-center justify-center md:gap-10 md:px-20">
             <div className="flex flex-col gap-8 md:grid md:grid-cols-2 md:gap-10">
               <div className="text-xs">
                 <div className="flex">
                   <BsCheck className="text-[#F7B736] text-base" />
-                  <h4 className="font-bold">Electrical Installation</h4>
+                  <h4 className="font-bold">New System Installations</h4>
                 </div>
                 <p className="ml-4 mt-2 text-[#909193]">
                   Our expert technicians are trained to install any type of
-                  <br className="hidden md:block" />
-                  electrical wiring for your home
+                  new systems
                 </p>
               </div>
               <div className="text-xs">
                 <div className="flex">
                   <BsCheck className="text-[#F7B736] text-base" />
-                  <h4 className="font-bold">Lighting</h4>
+                  <h4 className="font-bold">Upgrades/Retrofitting</h4>
                 </div>
                 <p className="ml-4 mt-2 text-[#909193]">
                   Full service electrical company offering some of the most
-                  <br className="hidden md:block" />
-                  comprehensive lighting services
+                  comprehensive retrofitting
                 </p>
               </div>
               <div className="text-xs">
                 <div className="flex">
                   <BsCheck className="text-[#F7B736] text-base" />
-                  <h4 className="font-bold">Addition/Renovation Wiring</h4>
+                  <h4 className="font-bold">Power Quality Design</h4>
                 </div>
                 <p className="ml-4 mt-2 text-[#909193]">
                   Can help you design and safely install updated electrical
-                  <br className="hidden md:block" />
                   features
                 </p>
               </div>
               <div className="text-xs">
                 <div className="flex">
                   <BsCheck className="text-[#F7B736] text-base" />
-                  <h4 className="font-bold">Home Generators</h4>
+                  <h4 className="font-bold">Data System Wiring</h4>
                 </div>
                 <p className="ml-4 mt-2 text-[#909193]">
-                  Install any type of backup generator for your home or
-                  <br />
-                  business
+                  Make high quality data systems to help you
+                  stay connected with your data
                 </p>
               </div>
               <div className="text-xs">
                 <div className="flex">
                   <BsCheck className="text-[#F7B736] text-base" />
-                  <h4 className="font-bold">Electrical Repairs</h4>
+                  <h4 className="font-bold">Lightening Surge Protection</h4>
                 </div>
                 <p className="ml-4 mt-2 text-[#909193]">
-                  Do you have an electrical emergency that needs reliable
-                  <br className="hidden md:block" />
-                  electrical repair services?
+                  We help to protect homes and business from unexpected
+                  lightening surges
                 </p>
               </div>
               <div className="text-xs">
                 <div className="flex">
                   <BsCheck className="text-[#F7B736] text-base" />
-                  <h4 className="font-bold">Circuit Breaker Panels</h4>
+                  <h4 className="font-bold">Parking Lot & Sign Lighting</h4>
                 </div>
                 <p className="ml-4 mt-2 text-[#909193]">
                   From electrical panel installation to repair, our licensed
-                  <br className="hidden md:block" />
                   electricians can take care of it
                 </p>
               </div>
