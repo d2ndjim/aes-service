@@ -56,10 +56,10 @@ const HomeContact = () => {
         />
         <select name="service" className="p-3 m-auto md:m-0">
           <option value="Service Type">Service Type</option>
-          <option value="javascript">JavaScript</option>
-          <option value="javascript">JavaScript</option>
-          <option value="javascript">JavaScript</option>
-          <option value="javascript">JavaScript</option>
+          <option value="javascript">Electrical Installations</option>
+          <option value="javascript">Lightings</option>
+          <option value="javascript">Repairs</option>
+          <option value="javascript">Security Systems</option>
         </select>
         <button
           type="submit"

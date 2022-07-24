@@ -26,11 +26,14 @@ const Header = () => (
       </nav>
     </div>
     <div className="flex items-center gap-7 mr-6">
-      <a id="phone" href="tel:09098760067" className="text-[#F7B736] text-2xl">
+      <a id="phone" href="tel:08123661281" className="text-[#F7B736] text-3xl">
         <FiPhoneCall className="hover:text-black" />
       </a>
-      <a href="tel:09098760067" className="font-bold hover:text-[#F7B736]">
-        09098760067
+      <a
+        href="tel:08123661281"
+        className="font-bold hover:text-[#F7B736] text-2xl"
+      >
+        08123661281
       </a>
     </div>
   </div>

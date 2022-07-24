@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { BsLightningCharge, BsCheck } from 'react-icons/bs';
-import ResImage from '../assets/images/residential.jpg';
-import ComImage from '../assets/images/commercial.jpg';
+import ResImage from '../assets/images/residential.jpeg';
+import ComImage from '../assets/images/commercial.jpeg';
 
 const Services = () => {
   const [isResidential, setIsResidential] = useState(true);
@@ -133,29 +133,29 @@ const Services = () => {
               <div className="text-xs">
                 <div className="flex">
                   <BsCheck className="text-[#F7B736] text-base" />
-                  <h4 className="font-bold">Electrical Installation</h4>
+                  <h4 className="font-bold">New System Installations</h4>
                 </div>
                 <p className="ml-4 mt-2 text-[#909193]">
                   Our expert technicians are trained to install any type of
                   <br />
-                  electrical wiring for your home
+                  new systems
                 </p>
               </div>
               <div className="text-xs">
                 <div className="flex">
                   <BsCheck className="text-[#F7B736] text-base" />
-                  <h4 className="font-bold">Lighting</h4>
+                  <h4 className="font-bold">Upgrades/Retrofitting</h4>
                 </div>
                 <p className="ml-4 mt-2 text-[#909193]">
                   Full service electrical company offering some of the most
                   <br />
-                  comprehensive lighting services
+                  comprehensive retrofitting
                 </p>
               </div>
               <div className="text-xs">
                 <div className="flex">
                   <BsCheck className="text-[#F7B736] text-base" />
-                  <h4 className="font-bold">Addition/Renovation Wiring</h4>
+                  <h4 className="font-bold">Power Quality Design</h4>
                 </div>
                 <p className="ml-4 mt-2 text-[#909193]">
                   Can help you design and safely install updated electrical
@@ -166,29 +166,29 @@ const Services = () => {
               <div className="text-xs">
                 <div className="flex">
                   <BsCheck className="text-[#F7B736] text-base" />
-                  <h4 className="font-bold">Home Generators</h4>
+                  <h4 className="font-bold">Data System Wiring</h4>
                 </div>
                 <p className="ml-4 mt-2 text-[#909193]">
-                  Install any type of backup generator for your home or
+                  Make high quality data systems to help you
                   <br />
-                  business
+                  stay connected with your data
                 </p>
               </div>
               <div className="text-xs">
                 <div className="flex">
                   <BsCheck className="text-[#F7B736] text-base" />
-                  <h4 className="font-bold">Electrical Repairs</h4>
+                  <h4 className="font-bold">Lightening Surge Protection</h4>
                 </div>
                 <p className="ml-4 mt-2 text-[#909193]">
-                  Do you have an electrical emergency that needs reliable
+                  We help to protect homes and business from unexpected
                   <br />
-                  electrical repair services?
+                  lightening surges
                 </p>
               </div>
               <div className="text-xs">
                 <div className="flex">
                   <BsCheck className="text-[#F7B736] text-base" />
-                  <h4 className="font-bold">Circuit Breaker Panels</h4>
+                  <h4 className="font-bold">Parking Lot & Sign Lighting</h4>
                 </div>
                 <p className="ml-4 mt-2 text-[#909193]">
                   From electrical panel installation to repair, our licensed

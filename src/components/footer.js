@@ -17,10 +17,10 @@ const Footer = () => (
           SCHEDULE A SERVICE
         </Link>
         <a
-          href="tel:09098760067"
+          href="tel:08123661281"
           className="border-solid border-2 px-4 py-2 md:px-8 md:py-4 text-white hover:bg-white hover:text-black"
         >
-          CALL: 09098760067
+          CALL: 08123661281
         </a>
       </div>
     </div>
@@ -39,7 +39,7 @@ const Footer = () => (
           <p className="text-xs text-[#757477]">
             requestaquote@aengrs.com
             <br />
-            09098760067
+            08123661281
           </p>
         </div>
       </div>

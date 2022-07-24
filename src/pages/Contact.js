@@ -98,7 +98,7 @@ const Contact = () => {
             <p className="text-xs text-[#757477]">
               requestaquote@aengrs.com
               <br />
-              09098760067
+              08123661281
             </p>
           </div>
         </div>
