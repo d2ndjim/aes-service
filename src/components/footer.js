@@ -18,7 +18,7 @@ const Footer = () => (
         </Link>
         <a
           href="tel:08123661281"
-          className="border-solid border-2 px-4 py-2 md:px-8 md:py-4 text-white hover:bg-white hover:text-black"
+          className="border-solid border-1 bg-white px-7 py-2 md:px-8 md:py-4 text-black hover:bg-black hover:text-white"
         >
           CALL: 08123661281
         </a>
